@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## IMPORTANT
+For the app to run successfully add a folder utils with a file name api_key.dart 
+with structure as<br>
+<span style="background-color: #FFFF00">class ApiKey {<br>
+  &nbsp;&nbsp;static const apiKey = 'your _api_key';<br>
+}
+</span>
