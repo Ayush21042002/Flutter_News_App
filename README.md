@@ -1,24 +1,21 @@
-# news_app
+# Flutter News App
+A new Flutter project which shows the trending news for different categories and uses inwebview for viewing articles.
 
-A new Flutter project.
+## News API is used for fetching the articles
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## IMPORTANT
-For the app to run successfully add a folder utils with a file name api_key.dart 
-with structure as<br>
-<span style="background-color: #FFFF00">class ApiKey {<br>
-  &nbsp;&nbsp;static const apiKey = 'your _api_key';<br>
+  To run the app:
+  <li>git clone repo-url</li>
+  <li>add the following code to utils/api_key.dart</li>
+  
+```javascript
+class ApiKey {
+  static const apiKey = "YOUR API KEY";
 }
-</span>
+```
+<p float="left">
+  <img src="app_assets/flutter_news_1.gif" width="250" height="500"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="app_assets/flutter_news_2.gif" width="250" height="500"/>
+</p>
+
+
